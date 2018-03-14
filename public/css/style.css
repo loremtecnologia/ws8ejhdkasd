@@ -568,12 +568,12 @@ hr {
 	padding: 20px;
 }
 .boxed-Naval {
-	background: #3F72AF;
+	background: #295e80;
 	padding: 20px;
 }
 
 .boxed-Light-Naval {
-	background: #6699CC;
+	background: #4e8fab;
 	padding: 20px;
 }
 
@@ -593,6 +593,10 @@ hr {
 
 .recomendentacao-size {
     height: 260px;
+}
+
+.ai-fa-size {
+    height: 320px;
 }
 
 .ai-size {
