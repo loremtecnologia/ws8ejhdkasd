@@ -440,6 +440,14 @@ hr {
     margin-top: 10%;
 }
 
+.btn-chatbot{
+    margin-top: 10%;
+}
+
+.btn-ia{
+    margin-top: 5%;
+}
+
 @media (max-width: 768px) {
   .intro .slogan h2 {
     font-size: 42px;
