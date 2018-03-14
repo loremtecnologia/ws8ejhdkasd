@@ -563,8 +563,36 @@ hr {
 	padding: 20px;
 }
 
+.boxed-Dark-Naval {
+	background: #0B385F;    
+	padding: 20px;
+}
+.boxed-Naval {
+	background: #3F72AF;
+	padding: 20px;
+}
+
+.boxed-Light-Naval {
+	background: #6699CC;
+	padding: 20px;
+}
+
 .vantagens-size {
     height: 330px;
+}
+
+.aimldl-ai-size {
+    height: 630px;
+}
+.aimldl-ml-size {
+    height: 330px;
+}
+.aimldl-dl-size {
+    height: 230px;
+}
+
+.recomendentacao-size {
+    height: 260px;
 }
 
 .ai-size {
