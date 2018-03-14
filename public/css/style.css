@@ -590,13 +590,13 @@ hr {
 }
 
 .aimldl-ai-size {
-    height: 630px;
+    height: 600px;
 }
 .aimldl-ml-size {
-    height: 330px;
+    height: 400px;
 }
 .aimldl-dl-size {
-    height: 230px;
+    height: 200px;
 }
 
 .recomendentacao-size {
@@ -628,6 +628,10 @@ hr {
 	margin-left: 0;
 	padding-left: 0;
 
+}
+
+.team-left {
+	text-align: left;
 }
 
 .team-social {
