@@ -5,7 +5,27 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**",
-      ".psd"
-    ]
+      "**/*.psd"
+    ],
+    "rewrites": [ {
+      "source": "/",
+      "destination": "/chatbot.html"
+    },
+    {
+      "source": "/chatbot",
+      "destination": "/chatbot.html"
+    },
+    {
+      "source": "/inteligenciaartificial",
+      "destination": "/inteligenciaartificial.html"
+    },
+    {
+      "source": "/empresa",
+      "destination": "/empresa.html"
+    },
+    {
+      "source": "/contato",
+      "destination": "/contato.html"
+    } ]
   }
 }
