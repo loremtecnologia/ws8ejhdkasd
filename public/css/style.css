@@ -604,14 +604,8 @@ hr {
     height: 420px;
 }
 
-.aimldl-ai-size {
-    height: 600px;
-}
-.aimldl-ml-size {
-    height: 400px;
-}
-.aimldl-dl-size {
-    height: 200px;
+.aimldl-size {
+    height: 630px;
 }
 
 .recomendentacao-size {
