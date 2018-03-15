@@ -85,6 +85,13 @@ a:focus {
     margin: 0 auto;
 }
 
+.img-responsive-fraude{
+    max-width: 100% !important;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
 .img-responsive-integracoes{
     max-width: 100% !important;
     display: block;
@@ -117,10 +124,10 @@ a:focus {
 }
 
 .img-responsive-recomendacao{
-    max-width: 100% !important;
+    max-width: 98% !important;
     display: block;
     margin: 0 auto;
-    padding-top: 50%;
+    padding-top: 50px;
 }
 
 .img-responsive-dashboard{
@@ -136,7 +143,13 @@ a:focus {
 }
 
 .img-responsive-chatbot{
-    max-width: 100% !important;
+    max-width: 75% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-responsive-audio{
+    max-width: 75% !important;
     display: block;
     margin: 0 auto;
 }
@@ -353,7 +366,7 @@ hr {
 
 
 .section-heading h2 {
-    font-size: 50px;
+    font-size: 40px;
 }
 .section-heading i {
 	margin-bottom: 20px;
@@ -397,6 +410,16 @@ hr {
     background: url(../img/banner/bg-ai.jpg) no-repeat top center !important;
     height: 650px !important;
 }
+
+.introempresa {
+    background: url(../img/banner/bg-empresa.jpg) no-repeat center center !important;
+    height: 650px !important;
+  }
+
+  .introcontato {
+    background: url(../img/banner/bg-contato.jpg) no-repeat center center !important;
+    height: 650px !important;
+  }
 
 .intro {
 	width:100%;
@@ -476,10 +499,293 @@ hr {
     margin-top: 5%;
 }
 
+@media (max-width: 1200px) {
+
+    .intro .slogan h2 {
+      font-size: 42px;
+    }
+  
+    .img-responsive-omnichannel{
+      max-width: 40% !important;
+      display: block;
+      margin: 0 auto;
+  }
+  
+    .introchatbot {
+      background: url(../img/banner/bg_b.jpg) no-repeat top center !important;
+      height: 500px !important;
+    }
+  
+    .introai {
+      background: url(../img/banner/bg-ai_b.jpg) no-repeat top center !important;
+      height: 500px !important;
+    }
+
+    .introempresa {
+        background: url(../img/banner/bg-empresa_b.jpg) no-repeat center center !important;
+        height: 500px !important;
+      }
+    
+      .introcontato {
+        background: url(../img/banner/bg-contato_b.jpg) no-repeat center center !important;
+        height: 500px !important;
+      }
+  
+    #intro.intro {
+      padding:250px 0 0 0;
+      }
+  
+      .img-responsive-integracoes-icon{
+          max-width: 100% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .img-responsive-omnichannel-icon{
+          max-width: 30% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .integracoes-lado{
+          float: left !important;
+          width: 15%;
+      }
+
+      .integracoes-center{
+          margin-left: 20px;
+      }
+  
+      .omnichannel-lado{
+          float: left !important;
+          width: 33%;
+      }
+  
+      .img-responsive-nlp{
+          max-width: 60% !important;
+          display: block;
+          margin: 0 auto;
+          padding-bottom: 20px;
+      }
+  
+      .img-responsive-fraude{
+          max-width: 20% !important;
+          display: block;
+          margin: 0 auto;
+          padding-top: 0%;
+      }
+  
+      .img-responsive-recomendacao{
+          max-width: 28% !important;
+          display: block;
+          margin: 0 auto;
+          padding-top: 0%;
+          padding-bottom: 20px;
+      }
+  
+      .recomendentacao-size {
+          height: 430px !important;
+      }
+  
+      .visao-size {
+          height: 470px !important;    
+      }
+  
+      .ai-size {
+          height: 460px !important;
+      }
+  
+  .img-responsive-vantagens{
+          max-width: 30% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .img-responsive-visao{
+          max-width: 30% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .aimldl-size {
+          height: 600px !important;
+      }
+
+      .img-responsive-audio{
+        max-width: 20% !important;
+        display: block;
+        margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 992px) {
+
+    .intro .slogan h2 {
+      font-size: 42px;
+    }
+  
+    .img-responsive-omnichannel{
+      max-width: 40% !important;
+      display: block;
+      margin: 0 auto;
+  }
+  
+    .introchatbot {
+      background: url(../img/banner/bg_b.jpg) no-repeat top center !important;
+      height: 500px !important;
+    }
+  
+    .introai {
+      background: url(../img/banner/bg-ai_b.jpg) no-repeat top center !important;
+      height: 500px !important;
+    }
+
+    .introchatbot {
+        background: url(../img/banner/bg_empresa.jpg) no-repeat top center !important;
+        height: 500px !important;
+      }
+  
+     #intro.intro {
+      padding:250px 0 0 0;
+      }
+  
+      .img-responsive-integracoes-icon{
+          max-width: 75% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .img-responsive-omnichannel-icon{
+          max-width: 40% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .integracoes-lado{
+          float: left !important;
+          width: 33%;
+      }
+  
+      .omnichannel-lado{
+          float: left !important;
+          width: 33%;
+      }
+  
+      .img-responsive-nlp{
+          max-width: 60% !important;
+          display: block;
+          margin: 0 auto;
+          padding-bottom: 20px;
+      }
+  
+      .img-responsive-fraude{
+          max-width: 100% !important;
+          display: block;
+          margin: 0 auto;
+          padding-top: 0%;
+      }
+  
+      .img-responsive-recomendacao{
+          max-width: 20% !important;
+          display: block;
+          margin: 0 auto;
+          padding-top: 0%;
+          padding-bottom: 30px;
+      }
+  
+      .recomendentacao-size {
+          height: auto !important;
+          margin-bottom: 30px;
+      }
+  
+      .visao-size {
+          height: auto !important;    
+      }
+  
+      .ai-size {
+          height: auto !important;
+          margin-bottom: 30px;
+      }
+  
+    .img-responsive-vantagens{
+          max-width: 20% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .img-responsive-visao{
+          max-width: 30% !important;
+          display: block;
+          margin: 0 auto;
+      }
+  
+      .aimldl-size {
+          height: auto !important;
+      }
+
+      .vantagens-size {
+        height: auto !important;
+        margin-bottom: 30px;
+    }
+
+    .img-responsive-ai{
+        max-width: 20% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-responsive-aimldl{
+        max-width: 20% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .aimldl-size{
+        height: auto !important;
+        margin-bottom: 30px;
+    }
+
+    .img-responsive-chatbot{
+        max-width: 80% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-responsive-audio{
+        max-width: 20% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-responsive-visao{
+        max-width: 20% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .visao-size{
+        height: auto !important;
+        margin-bottom: 30px;
+    }
+
+    .img-responsive-fraude{
+        max-width: 20% !important;
+        display: block;
+        margin: 0 auto; 
+    }
+
+  }
+
 @media (max-width: 768px) {
   .intro .slogan h2 {
     font-size: 42px;
   }
+
+  .img-responsive-omnichannel{
+    max-width: 40% !important;
+    display: block;
+    margin: 0 auto;
+}
 
   .introchatbot {
     background: url(../img/banner/bg_m.jpg) no-repeat top center !important;
@@ -518,10 +824,63 @@ hr {
     }
 
     .img-responsive-nlp{
-        max-width: 25% !important;
+        max-width: 60% !important;
         display: block;
         margin: 0 auto;
         padding-bottom: 20px;
+    }
+
+    .img-responsive-fraude{
+        max-width: 100% !important;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0%;
+    }
+
+    .img-responsive-recomendacao{
+        max-width: 28% !important;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0%;
+        padding-bottom: 20px;
+    }
+
+    .recomendentacao-size {
+        height: auto !important;
+    }
+
+    .visao-size {
+        height: auto !important;    
+    }
+
+    .vantagens-size {
+        height: auto !important;
+    }
+
+    .ai-size {
+        height: auto !important;
+    }
+
+.img-responsive-vantagens{
+        max-width: 30% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-responsive-visao{
+        max-width: 30% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .aimldl-size {
+        height: auto !important;
+    }
+
+    .img-responsive-aimldl{
+        max-width: 20% !important;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -583,10 +942,68 @@ hr {
         }
 
     .img-responsive-nlp{
-        max-width: 50% !important;
+        max-width: 80% !important;
         display: block;
         margin: 0 auto;
         padding-bottom: 20px;
+    }
+
+    .img-responsive-fraude{
+        max-width: 40% !important;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+
+    .img-responsive-recomendacao{
+        max-width: 34% !important;
+        display: block;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+
+    .recomendentacao-size {
+        height: auto !important;
+    }
+
+    .visao-size {
+        height: auto !important;    
+    }
+
+    .vantagens-size {
+        height: auto !important;
+    }
+
+    .ai-size {
+        height: auto !important;
+    }
+
+    .img-responsive-ai{
+        max-width: 30% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .aimldl-size {
+        height: auto !important;
+    }
+
+    .img-responsive-chatbot{
+        max-width: 70% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-responsive-audio{
+        max-width: 40% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-responsive-aimldl{
+        max-width: 30% !important;
+        display: block;
+        margin: 0 auto;
     }
 }
 
@@ -638,7 +1055,7 @@ hr {
 }
 
 .recomendentacao-size {
-    height: 300px;
+    height: 320px;
 }
 
 .ai-fa-size {
