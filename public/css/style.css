@@ -64,6 +64,12 @@ a:focus {
     font-weight: 400;
 }
 
+.img-responsive-aimldl{
+    max-width: 30% !important;
+    display: block;
+    margin: 0 auto;
+}
+
 .img-responsive-vantagens{
     max-width: 43% !important;
     display: block;
@@ -590,7 +596,8 @@ hr {
 }
 
 .boxed-grey-dark {
-	background: #515151;    
+    background: #303030;
+    color: #ffffff !important;
 	padding: 20px;
 }
 
@@ -616,14 +623,8 @@ hr {
     height: 420px;
 }
 
-.aimldl-ai-size {
-    height: 600px;
-}
-.aimldl-ml-size {
-    height: 400px;
-}
-.aimldl-dl-size {
-    height: 200px;
+.aimldl-size {
+    height: 630px;
 }
 
 .recomendentacao-size {
