@@ -640,8 +640,13 @@ hr {
       height: 500px !important;
     }
 
-    .introchatbot {
-        background: url(../img/banner/bg_empresa.jpg) no-repeat top center !important;
+    .introempresa {
+        background: url(../img/banner/bg-empresa_b.jpg) no-repeat center center !important;
+        height: 500px !important;
+      }
+    
+      .introcontato {
+        background: url(../img/banner/bg-contato_b.jpg) no-repeat center center !important;
         height: 500px !important;
       }
   
@@ -797,6 +802,16 @@ hr {
     height: 500px !important;
   }
 
+  .introempresa {
+    background: url(../img/banner/bg-empresa_m.jpg) no-repeat center center !important;
+    height: 500px !important;
+  }
+
+  .introcontato {
+    background: url(../img/banner/bg-contato_m.jpg) no-repeat center center !important;
+    height: 500px !important;
+  }
+
   #intro.intro {
     padding:250px 0 0 0;
     }
@@ -900,6 +915,16 @@ hr {
 
   .introai {
     background: url(../img/banner/bg-ai_s.jpg) no-repeat top center !important;
+    height: 500px !important;
+  }
+
+  .introempresa {
+    background: url(../img/banner/bg-empresa_s.jpg) no-repeat center center !important;
+    height: 500px !important;
+  }
+
+  .introcontato {
+    background: url(../img/banner/bg-contato_s.jpg) no-repeat center center !important;
     height: 500px !important;
   }
 
