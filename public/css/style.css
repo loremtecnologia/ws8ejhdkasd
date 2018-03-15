@@ -412,12 +412,12 @@ hr {
 }
 
 .introempresa {
-    background: url(../img/banner/bg-empresa.jpg) no-repeat center center !important;
+    background: url(../img/banner/bg-em.jpg) no-repeat center center !important;
     height: 650px !important;
   }
 
   .introcontato {
-    background: url(../img/banner/bg-contato.jpg) no-repeat center center !important;
+    background: url(../img/banner/bg-co.jpg) no-repeat center center !important;
     height: 650px !important;
   }
 
@@ -522,12 +522,12 @@ hr {
     }
 
     .introempresa {
-        background: url(../img/banner/bg-empresa_b.jpg) no-repeat center center !important;
+        background: url(../img/banner/bg-em_b.jpg) no-repeat center center !important;
         height: 500px !important;
       }
     
       .introcontato {
-        background: url(../img/banner/bg-contato_b.jpg) no-repeat center center !important;
+        background: url(../img/banner/bg-co_b.jpg) no-repeat center center !important;
         height: 500px !important;
       }
   
@@ -641,12 +641,12 @@ hr {
     }
 
     .introempresa {
-        background: url(../img/banner/bg-empresa_b.jpg) no-repeat center center !important;
+        background: url(../img/banner/bg-em_b.jpg) no-repeat center center !important;
         height: 500px !important;
       }
     
       .introcontato {
-        background: url(../img/banner/bg-contato_b.jpg) no-repeat center center !important;
+        background: url(../img/banner/bg-co_b.jpg) no-repeat center center !important;
         height: 500px !important;
       }
   
@@ -803,12 +803,12 @@ hr {
   }
 
   .introempresa {
-    background: url(../img/banner/bg-empresa_m.jpg) no-repeat center center !important;
+    background: url(../img/banner/bg-em_m.jpg) no-repeat center center !important;
     height: 500px !important;
   }
 
   .introcontato {
-    background: url(../img/banner/bg-contato_m.jpg) no-repeat center center !important;
+    background: url(../img/banner/bg-co_m.jpg) no-repeat center center !important;
     height: 500px !important;
   }
 
@@ -919,12 +919,12 @@ hr {
   }
 
   .introempresa {
-    background: url(../img/banner/bg-empresa_s.jpg) no-repeat center center !important;
+    background: url(../img/banner/bg-em_s.jpg) no-repeat center center !important;
     height: 500px !important;
   }
 
   .introcontato {
-    background: url(../img/banner/bg-contato_s.jpg) no-repeat center center !important;
+    background: url(../img/banner/bg-co_s.jpg) no-repeat center center !important;
     height: 500px !important;
   }
 
