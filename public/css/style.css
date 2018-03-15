@@ -64,8 +64,14 @@ a:focus {
     font-weight: 400;
 }
 
-.img-responsive{
-    max-width: 40% !important;
+.img-responsive-vantagens{
+    max-width: 43% !important;
+    display: block;
+    margin: 0 auto;
+}
+
+.img-responsive-visao{
+    max-width: 43% !important;
     display: block;
     margin: 0 auto;
 }
@@ -496,7 +502,7 @@ hr {
     }
 
     .img-responsive-nlp{
-        max-width: 90% !important;
+        max-width: 25% !important;
         display: block;
         margin: 0 auto;
         padding-bottom: 20px;
@@ -526,7 +532,13 @@ hr {
         padding:200px 0 0 0;
     }
 
-    .img-responsive{
+    .img-responsive-vantagens{
+        max-width: 30% !important;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .img-responsive-visao{
         max-width: 30% !important;
         display: block;
         margin: 0 auto;
@@ -555,7 +567,7 @@ hr {
         }
 
     .img-responsive-nlp{
-        max-width: 90% !important;
+        max-width: 50% !important;
         display: block;
         margin: 0 auto;
         padding-bottom: 20px;
@@ -601,7 +613,7 @@ hr {
 }
 
 .visao-size {
-    height: 420px;
+    height: 410px;
 }
 
 .aimldl-size {
