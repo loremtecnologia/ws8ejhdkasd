@@ -417,7 +417,7 @@ hr {
   }
 
   .introcontato {
-    background: url(../img/banner/bg-co.jpg) no-repeat center center !important;
+    background: url(../img/banner/bg-co.jpg) no-repeat bottom center !important;
     height: 650px !important;
   }
 

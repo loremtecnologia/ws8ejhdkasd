@@ -1,7 +1,8 @@
 
 jQuery(document).ready(function($) {
 "use strict";
-
+            var $telefone = $("#telefone");
+            $telefone.mask('(00) 00000-0000', { reverse: false });
     //Contact
     $('form.contactForm').submit(function(){
 
