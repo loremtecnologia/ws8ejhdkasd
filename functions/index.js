@@ -8,8 +8,8 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
     res.header('Access-Control-Allow-Origin', '*');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
 
-    console.log('email')
-    console.log(req.body)
+    // console.log('email')
+    // console.log(req.body)
     let transporter = nodemailer.createTransport({
         host: 'smtp.gmail.com',
         port: 587,
@@ -27,12 +27,12 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
     };
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-            res.json('{\"msg\":\"error\"}')
-            return console.log(error);
+            res.status(400).send({msg: 'error'});
+            //return console.log(error);
         }
-        console.log('Message sent: %s', info.messageId);
+        //console.log('Message sent: %s', info.messageId);
         // Preview only available when sending through an Ethereal account
-        console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
+        //console.log('Preview URL: %s', nodemailer.getTestMessageUrl(info));
 
         res.status(200).send({msg: 'success'});
         //res.json();
