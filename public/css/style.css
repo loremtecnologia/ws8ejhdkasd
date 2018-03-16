@@ -67,6 +67,29 @@ a:focus {
     font-weight: 400;
 }
 
+.trl-bk-logos {
+    background-color: #fff;
+    padding: 2vh;
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.trl-img {
+    max-width: 100%;
+    display: block;
+}
+
 .img-responsive-aimldl{
     max-width: 30% !important;
     display: block;
