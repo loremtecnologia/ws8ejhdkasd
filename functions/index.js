@@ -27,7 +27,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
     };
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
-            res.status(400).send({msg: 'error'});
+            res.status(200).send({msg: 'error'});
             //return console.log(error);
         }
         //console.log('Message sent: %s', info.messageId);
