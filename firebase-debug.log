@@ -1,68 +1,27 @@
-[debug] [2018-03-15T19:30:36.884Z] ----------------------------------------------------------------------
-[debug] [2018-03-15T19:30:36.890Z] Command:       D:\Arquivos de Programas\nodejs\node.exe C:\Users\Ritter\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2018-03-15T19:30:36.891Z] CLI Version:   3.17.4
-[debug] [2018-03-15T19:30:36.891Z] Platform:      win32
-[debug] [2018-03-15T19:30:36.891Z] Node Version:  v6.11.1
-[debug] [2018-03-15T19:30:36.893Z] Time:          Thu Mar 15 2018 16:30:36 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:30:36.893Z] ----------------------------------------------------------------------
+[debug] [2018-03-15T19:39:39.390Z] ----------------------------------------------------------------------
+[debug] [2018-03-15T19:39:39.393Z] Command:       D:\Arquivos de Programas\nodejs\node.exe C:\Users\Ritter\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-03-15T19:39:39.394Z] CLI Version:   3.17.4
+[debug] [2018-03-15T19:39:39.394Z] Platform:      win32
+[debug] [2018-03-15T19:39:39.394Z] Node Version:  v6.11.1
+[debug] [2018-03-15T19:39:39.395Z] Time:          Thu Mar 15 2018 16:39:39 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-03-15T19:39:39.395Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-03-15T19:30:36.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-03-15T19:30:36.915Z] > authorizing via signed-in user
-[debug] [2018-03-15T19:30:36.919Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-03-15T19:30:36.919Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/Z6nNvviYl9rrDq0Lpx83GdCKB4T4Vl5YFxoktgOS_Cw',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Thu Mar 15 2018 16:30:36 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:30:40.789Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-15T19:30:40.795Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tirrell-6da1f  
+[debug] [2018-03-15T19:39:39.411Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-15T19:39:39.411Z] > authorizing via signed-in user
+[debug] [2018-03-15T19:39:39.415Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tirrell-6da1f  
   
- Thu Mar 15 2018 16:30:40 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:30:41.958Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-15T19:30:41.959Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tirrell-6da1f/tokens  
+ Thu Mar 15 2018 16:39:39 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-03-15T19:39:40.755Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-15T19:39:40.757Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tirrell-6da1f/tokens  
   
- Thu Mar 15 2018 16:30:41 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:30:42.869Z] <<< HTTP RESPONSE 200
+ Thu Mar 15 2018 16:39:40 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-03-15T19:39:41.663Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Deploying to 'tirrell-6da1f'...
 [info] 
 [info] i  deploying hosting
 [info] i  hosting: preparing public directory for upload...
 [warn] !  Warning: Public directory does not contain index.html
-[debug] [2018-03-15T19:30:46.027Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/tirrell-6da1f/uploads/-L7f895oPTOc3GBrUSFE?fileCount=160&message=  
+[debug] [2018-03-15T19:39:44.021Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/tirrell-6da1f/uploads/-L7fACetIfRQVFKFcxIV?fileCount=157&message=  
   
- Thu Mar 15 2018 16:30:46 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:31:57.252Z] Error: write ECONNRESET
-    at exports._errnoException (util.js:1018:11)
-    at WriteWrap.afterWrite (net.js:800:14)
-[error] 
-[error] Error: Server Error. write ECONNRESET
-[debug] [2018-03-15T19:32:14.722Z] ----------------------------------------------------------------------
-[debug] [2018-03-15T19:32:14.727Z] Command:       D:\Arquivos de Programas\nodejs\node.exe C:\Users\Ritter\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
-[debug] [2018-03-15T19:32:14.727Z] CLI Version:   3.17.4
-[debug] [2018-03-15T19:32:14.727Z] Platform:      win32
-[debug] [2018-03-15T19:32:14.727Z] Node Version:  v6.11.1
-[debug] [2018-03-15T19:32:14.728Z] Time:          Thu Mar 15 2018 16:32:14 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:32:14.728Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2018-03-15T19:32:14.745Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-03-15T19:32:14.746Z] > authorizing via signed-in user
-[debug] [2018-03-15T19:32:14.750Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tirrell-6da1f  
-  
- Thu Mar 15 2018 16:32:14 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:32:15.889Z] <<< HTTP RESPONSE 200
-[debug] [2018-03-15T19:32:15.890Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tirrell-6da1f/tokens  
-  
- Thu Mar 15 2018 16:32:15 GMT-0300 (Hora oficial do Brasil)
-[debug] [2018-03-15T19:32:16.775Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Deploying to 'tirrell-6da1f'...
-[info] 
-[info] i  deploying hosting
-[info] i  hosting: preparing public directory for upload...
-[warn] !  Warning: Public directory does not contain index.html
-[debug] [2018-03-15T19:32:19.890Z] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/tirrell-6da1f/uploads/-L7f8W05F380qtwn1NyZ?fileCount=160&message=  
-  
- Thu Mar 15 2018 16:32:19 GMT-0300 (Hora oficial do Brasil)
+ Thu Mar 15 2018 16:39:44 GMT-0300 (Hora oficial do Brasil)
