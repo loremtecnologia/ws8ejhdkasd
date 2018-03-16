@@ -68,9 +68,10 @@ a:focus {
 }
 
 .trl-bk-logos {
+    height: 120px;
+    width: 120px;
     background-color: #fff;
     padding: 2vh;
-    height: 100%;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
