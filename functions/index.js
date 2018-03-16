@@ -15,13 +15,13 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: "loremtecnologia@gmail.com", // generated ethereal user
-            pass: "ritter!0"  // generated ethereal password
+            user: "ia@tirrell.com.br", // generated ethereal user
+            pass: "yaQuB2hrLNp"  // generated ethereal password
         }
     });
     let mailOptions = {
-        from: '"Site - ia.tirrell.com.br" <loremtecnologia@gmail.com>', // sender address
-        to: 'andreritters@gmail.com', // list of receivers
+        from: '"Contato Site" <ia.tirrell.com.br>', // sender address
+        to: 'andre@tirrell.com.br, eduardo@tirrell.com.br', // list of receivers
         subject: req.body.subject, // Subject line
         html: '<b>Nome: </b>' + req.body.name + '<br><b>E-mail: </b>' + req.body.email + '<br><b>Telefone: </b>' + req.body.telefone + '<br><b>Empresa: </b>' + req.body.empresa + '<br><b>Assunto: </b>' + req.body.subject + '<br><b>Mensagem: </b>' + req.body.message + '<br>' // html body
     };
