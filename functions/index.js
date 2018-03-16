@@ -21,7 +21,7 @@ exports.sendEmail = functions.https.onRequest((req, res) => {
     });
     let mailOptions = {
         from: '"Contato Site" <ia.tirrell.com.br>', // sender address
-        to: 'andre@tirrell.com.br, eduardo@tirrell.com.br', // list of receivers
+        to: 'ia@tirrell.com.br, andre@tirrell.com.br, eduardo@tirrell.com.br', // list of receivers
         subject: req.body.subject, // Subject line
         html: '<b>Nome: </b>' + req.body.name + '<br><b>E-mail: </b>' + req.body.email + '<br><b>Telefone: </b>' + req.body.telefone + '<br><b>Empresa: </b>' + req.body.empresa + '<br><b>Assunto: </b>' + req.body.subject + '<br><b>Mensagem: </b>' + req.body.message + '<br>' // html body
     };
