@@ -85,9 +85,9 @@ jQuery(document).ready(function($) {
                 url: "https://us-central1-tirrell-6da1f.cloudfunctions.net/sendEmail",
                 data: str,
                 success: function(msg){
-                    alert('ok')
-                    alert(JSON.stringify(msg));
-                    if(msg == 'OK') {
+                    // alert('ok')
+                    // alert(JSON.stringify(msg));
+                    if(msg.msg == 'success') {
                         $("#sendmessage").addClass("show");			
                         $("#errormessage").removeClass("show");	
                     }
@@ -98,8 +98,8 @@ jQuery(document).ready(function($) {
                     
                 },
                 error: function (err) {
-                    alert('erro')
-                    alert(JSON.stringify(err))
+                    // alert('erro')
+                    // alert(JSON.stringify(err))
                   },
             });
         return false;
