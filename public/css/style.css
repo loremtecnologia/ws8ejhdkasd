@@ -584,7 +584,7 @@ hr {
       }
   
       .recomendentacao-size {
-          height: 430px !important;
+          height: 380px !important;
       }
   
       .visao-size {
@@ -700,7 +700,7 @@ hr {
   
       .recomendentacao-size {
           height: auto !important;
-          margin-bottom: 30px;
+          margin-bottom: 20px;
       }
   
       .visao-size {
@@ -1080,7 +1080,7 @@ hr {
 }
 
 .recomendentacao-size {
-    height: 320px;
+    height: 280px;
 }
 
 .ai-fa-size {
