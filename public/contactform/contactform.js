@@ -78,13 +78,15 @@ jQuery(document).ready(function($) {
             }
         });
         if( ferror ) return false; 
-        else var str = $(this).serialize();		
+        else var str = $(this).serialize();
             $.ajax({
+                dataType: "json",
                 type: "POST",
-                url: "contactform/contactform.php",
+                url: "https://us-central1-tirrell-6da1f.cloudfunctions.net/sendEmail",
                 data: str,
                 success: function(msg){
-                   // alert(msg);
+                    alert('ok')
+                    alert(JSON.stringify(msg));
                     if(msg == 'OK') {
                         $("#sendmessage").addClass("show");			
                         $("#errormessage").removeClass("show");	
@@ -92,10 +94,13 @@ jQuery(document).ready(function($) {
                     else {
                         $("#sendmessage").removeClass("show");
                         $("#errormessage").addClass("show");
-                        $('#errormessage').html(msg);
                     }
                     
-                }
+                },
+                error: function (err) {
+                    alert('erro')
+                    alert(JSON.stringify(err))
+                  },
             });
         return false;
     });
