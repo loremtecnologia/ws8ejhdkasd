@@ -446,7 +446,7 @@ hr {
   }
 
   .introhome {
-    background: url(../img/banner/inteligenciaartificial.jpg) no-repeat bottom center !important;
+    background: url(../img/banner/bg-ho.jpg) no-repeat bottom center !important;
     height: 650px !important;
   }
 
@@ -539,6 +539,10 @@ hr {
       margin: 0 auto;
   }
   
+  .introhome {
+    background: url(../img/banner/bg-ho_b.jpg) no-repeat top center !important;
+    height: 650px !important;
+  }
     .introchatbot {
       background: url(../img/banner/bg_b.jpg) no-repeat top center !important;
       height: 500px !important;
@@ -658,6 +662,11 @@ hr {
       margin: 0 auto;
   }
   
+  .introhome {
+    background: url(../img/banner/bg-ho_b.jpg) no-repeat top center !important;
+    height: 650px !important;
+  }
+
     .introchatbot {
       background: url(../img/banner/bg_b.jpg) no-repeat top center !important;
       height: 500px !important;
@@ -820,6 +829,11 @@ hr {
     margin: 0 auto;
 }
 
+.introhome {
+    background: url(../img/banner/bg-ho_m.jpg) no-repeat top center !important;
+    height: 650px !important;
+  }
+
   .introchatbot {
     background: url(../img/banner/bg_m.jpg) no-repeat top center !important;
     height: 500px !important;
@@ -935,6 +949,11 @@ hr {
   .section-heading h2 {
 	font-size: 26px;
     }
+
+    .introhome {
+        background: url(../img/banner/bg-ho_s.jpg) no-repeat top center !important;
+        height: 650px !important;
+      }
 
   .introchatbot {
     background: url(../img/banner/bg_s.jpg) no-repeat top center !important;
