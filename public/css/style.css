@@ -213,7 +213,7 @@ a:focus {
 .navbar-custom ul.nav li a {
 	font-size: 12px;
 	letter-spacing: 1px;
-    color: rgba(0, 54, 86, 0.9);
+    color: #333;
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -222,7 +222,7 @@ a:focus {
 	    -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-	color: #fff;
+	color: #333;
 }
 
 .navbar-custom ul.nav ul.dropdown-menu {
@@ -266,7 +266,7 @@ a:focus {
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li.active {
     outline: 0;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #ccc3;
 }
 
 .navbar-toggle {
@@ -282,7 +282,7 @@ a:focus {
 
 
 .container{
-    padding-top: 20px !important;
+    padding-top: 0px !important;
 }
 
 /* loader */
@@ -445,10 +445,14 @@ hr {
     height: 650px !important;
   }
 
+  .introhome {
+    background: url(../img/banner/inteligenciaartificial.jpg) no-repeat bottom center !important;
+    height: 650px !important;
+  }
+
 .intro {
 	width:100%;
 	position:relative;
-	background: url(../img/bg1.jpg) no-repeat top center;
     background-size: cover;
     height: auto;
 }
@@ -1532,6 +1536,8 @@ Parallax
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
+        background-color: #fff !important;
+        box-shadow: 0 3px 3px rgba(0,0,0,0.05);
     }
 
     .top-nav-collapse {
@@ -1579,7 +1585,7 @@ Parallax
 @media (max-width:480px) {
 
 	.navbar-custom .nav.navbar-nav {
-    background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
 	}
 
 	.navbar.navbar-custom.navbar-fixed-top {
