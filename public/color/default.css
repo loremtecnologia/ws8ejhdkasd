@@ -8,11 +8,11 @@ a,.tp-caption a.btn:hover {
 
 @media (max-width: 768px) {
   .navbar, .navbar-nav {
-		background: rgba(0, 54, 86, 0.9) !important;
+		background: #fff !important;
 	}
 
 	.navbar-nav a {
-		color: #fff !important;
+		color: #333 !important;
 	}
 }
 
@@ -55,4 +55,9 @@ footer {
 	background-color: rgba(0, 54, 86, 0.9);
 	border-radius: 3px;
 	font-size: 18px;
+	padding-top: 10px;
+  }
+
+  .fa-dark{
+	  color: #000;
   }
