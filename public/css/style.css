@@ -33,7 +33,6 @@ h4,
 h5,
 h6 {
     margin: 0 0 30px;
-    text-transform: uppercase;
     font-family: Roboto,sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
@@ -91,91 +90,9 @@ a:focus {
     display: block;
 }
 
-.img-responsive-aimldl{
-    max-width: 30% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-vantagens{
-    max-width: 43% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-visao{
-    max-width: 43% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-fraude{
-    max-width: 100% !important;
-    display: block;
-    margin: 0 auto;
-    padding-top: 30px;
-}
-
-.img-responsive-integracoes{
-    max-width: 100% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-integracoes-icon{
-    max-width: 100% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-omnichannel{
-    max-width: 60% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-omnichannel-icon{
-    max-width: 40% !important;
-    display: block;
-    margin: 0 auto;
-    padding-bottom: 50px;
-}
-
-.img-responsive-nlp{
-    max-width: 100% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-recomendacao{
-    max-width: 98% !important;
-    display: block;
-    margin: 0 auto;
-    padding-top: 50px;
-}
-
-.img-responsive-dashboard{
-    max-width: 100% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-ai{
-    max-width: 30% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-chatbot{
-    max-width: 75% !important;
-    display: block;
-    margin: 0 auto;
-}
-
-.img-responsive-audio{
-    max-width: 75% !important;
-    display: block;
-    margin: 0 auto;
+.img-left{
+    padding-right: 20px;
+    float: left;
 }
 
 .navbar {
@@ -309,6 +226,10 @@ a:focus {
     width: 60px;
 }
 
+.carousel-control{
+    background-image: none !important;
+}
+
 @keyframes boxSpin{
   0%{
     transform: translate(-10px, 0px);
@@ -381,19 +302,11 @@ hr {
 ============================ */
 
 .home-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 	display:block;
     position:relative;
     z-index:120;
-}
-
-
-.section-heading h2 {
-    font-size: 40px;
-}
-.section-heading i {
-	margin-bottom: 20px;
 }
 
 
@@ -408,7 +321,7 @@ hr {
 }
 
 .bg-blue-logo {
-	background: #5697b0;
+	background: #0a98b2;
 }
 
 .bg-dark {
@@ -419,13 +332,53 @@ hr {
 /* --- section color var --- */
 
 .text-light {
-    color: #fff;
+    color: #fff !important;
+}
+
+.text-blue {
+    color: #2b4c61 !important;
 }
 
 .text-center {
     text-align: center;
 }
 
+.text-blue-light {
+	color: #0a98b2;
+}
+
+.text-title-big {
+    font-size: 30px;
+}
+
+.text-subtitle-small {
+    font-size: 18px !important;
+}
+
+.titulo-servicos {
+    font-size: 16px !important;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+
+.servicos{
+    padding-bottom: 30px;
+}
+
+.heading-about{
+    padding-bottom: 30px;
+}
+
+.img-aplicacao{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.aplicacao-mobile{
+    display: none;
+}
 
 
 /* ===========================
@@ -452,57 +405,89 @@ hr {
     height: 650px !important;
   }
 
-  .introhome {
-    background: url(../img/banner/bg-ho.jpg) no-repeat bottom center !important;
-    height: 650px !important;
+  .banner-chatbot {
+    background: url(../img/banner/banner_chatbot_gg.jpg) no-repeat top center !important;
+    height: 550px !important;
   }
 
-.intro {
-	width:100%;
-	position:relative;
-    background-size: cover;
-    height: auto;
-}
+  .banner-home-1 {
+    background: url(../img/banner/banner_home_gg.jpg) no-repeat top center !important;
+    height: 400px !important;
+  }
 
-#intro.intro {
-	padding:400px 0 0 0;
-}
+  .banner-home-2 {
+    background: url(../img/banner/banner_home_gg.jpg) no-repeat top center !important;
+    height: 400px !important;
+  }
 
-.intro .slogan {
-	text-align: center;
+  .banner-home-3 {
+    background: url(../img/banner/banner_home_gg.jpg) no-repeat top center !important;
+    height: 400px !important;
+  }
+
+  
+/* Carousel Header Styles */
+.carousel{ margin-top: 50px;}
+.carousel-inner img {width: 100%;}
+.carousel-control {width: 0;}
+.carousel-control.left,
+.carousel-control.right {opacity: 1;filter: alpha(opacity=100);background-image: none;background-repeat: no-repeat;text-shadow: none;}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right, 
+.carousel-control .icon-prev, 
+.carousel-control .icon-next {position: absolute;top: 45%;z-index: 5;display: inline-block;}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {left: 10px;}
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {right: 10px;}
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {opacity: .7;filter: alpha(opacity=70);}
+
+.carousel-inner > .item {margin-left:0;margin-top:0;margin-bottom:0;padding-left: 0;width: 100%;height: auto;}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {display: block;max-width: 100%;height: auto;margin-left:0;padding-left: 0;}
+
+.banner{
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    position: absolute;
+    top: 25%;
+}
+  .slogan-home{
+      padding-top: 30px;
+      position: absolute;
+      top: 25%;
+      text-align: center;
+  }
+
+  .slogan-chatbot{
+    padding-top: 100px;
 }
 
 .intro .page-scroll {
 	text-align: center;
 }
 
-.brand-heading {
-    font-size: 40px;
+.titulo-banner{
+    font-size: 55px !important;
+    text-align: center !important;
+    font-weight: 400 !important;
 }
 
-.intro-text {
-    font-size: 18px;
+.subtitulo-banner{
+    font-size: 40px !important;
+    text-align: left !important;
+    font-weight: 300 !important;
 }
 
-.intro .slogan h2 {
-	color: #FFF;
-	text-shadow: none;
-	font-size: 50px;
-	line-height: 74px;
-	font-weight: 300;
-	font-family: Roboto,sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-	text-shadow: -1px 0 1px #000;
+.btn-espaco{
+    margin-top: 40px;
 }
 
-.intro .slogan h4 {
-	color: #fff;
-	text-shadow: -1px 1px 1px #000;
-}
+
+
+
 
 .bg-parceiro {
     background: url(../img/banner/bg-parceria.jpg) no-repeat center center !important;
@@ -535,20 +520,44 @@ hr {
 
 @media (max-width: 1200px) {
 
-    .intro .slogan h2 {
-      font-size: 42px;
+    .titulo-banner{
+        font-size: 40px !important;
+        text-align: center !important;
+        font-weight: 400 !important;
     }
+    
+    .subtitulo-banner{
+        font-size: 30px !important;
+        text-align: left !important;
+        font-weight: 300 !important;
+    }
+
+    .banner-home-1 {
+        background: url(../img/banner/banner_home_g.jpg) no-repeat top center !important;
+        height: 400px !important;
+      }
+
+      .banner-home-2 {
+        background: url(../img/banner/banner_home_g.jpg) no-repeat top center !important;
+        height: 400px !important;
+      }
+
+      .banner-home-3 {
+        background: url(../img/banner/banner_home_g.jpg) no-repeat top center !important;
+        height: 400px !important;
+      }
+    
+      .banner-chatbot {
+        background: url(../img/banner/banner_chatbot_g.jpg) no-repeat top center !important;
+        height: 500px !important;
+      }
+
+
+
   
-    .img-responsive-omnichannel{
-      max-width: 40% !important;
-      display: block;
-      margin: 0 auto;
-  }
-  
-  .introhome {
-    background: url(../img/banner/bg-ho_b.jpg) no-repeat top center !important;
-    height: 650px !important;
-  }
+ 
+
+
     .introchatbot {
       background: url(../img/banner/bg_b.jpg) no-repeat top center !important;
       height: 500px !important;
@@ -573,18 +582,6 @@ hr {
       padding:250px 0 0 0;
       }
   
-      .img-responsive-integracoes-icon{
-          max-width: 100% !important;
-          display: block;
-          margin: 0 auto;
-      }
-  
-      .img-responsive-omnichannel-icon{
-          max-width: 30% !important;
-          display: block;
-          margin: 0 auto;
-      }
-  
       .integracoes-lado{
           float: left !important;
           width: 15%;
@@ -596,7 +593,7 @@ hr {
   
       .omnichannel-lado{
           float: left !important;
-          width: 33%;
+          width: 20%;
       }
   
       .img-responsive-nlp{
@@ -658,20 +655,55 @@ hr {
 
   @media (max-width: 992px) {
 
-    .intro .slogan h2 {
-      font-size: 42px;
+    .titulo-banner{
+        font-size: 32px !important;
+        text-align: center !important;
+        font-weight: 400 !important;
     }
-  
-    .img-responsive-omnichannel{
-      max-width: 40% !important;
-      display: block;
-      margin: 0 auto;
-  }
-  
-  .introhome {
-    background: url(../img/banner/bg-ho_b.jpg) no-repeat top center !important;
-    height: 650px !important;
-  }
+    
+    .subtitulo-banner{
+        font-size: 26px !important;
+        text-align: left !important;
+        font-weight: 300 !important;
+    }
+
+    .servicos{
+        padding-bottom: 0px;
+    }
+
+    .banner-home-1 {
+        background: url(../img/banner/banner_home_g.jpg) no-repeat top center !important;
+        height: 400px !important;
+      }
+
+      .banner-home-2 {
+        background: url(../img/banner/banner_home_g.jpg) no-repeat top center !important;
+        height: 400px !important;
+      }
+
+      .banner-home-3 {
+        background: url(../img/banner/banner_home_g.jpg) no-repeat top center !important;
+        height: 400px !important;
+      }
+    
+      .banner-chatbot {
+        background: url(../img/banner/banner_chatbot_g.jpg) no-repeat top center !important;
+        height: 500px !important;
+      }
+
+      .espaco-top{
+          padding-top: 20px;
+      }
+
+      .aplicacao-desktop{
+        display: none;
+    }
+
+    .aplicacao-mobile{
+        display: inherit;
+    }
+
+    
 
     .introchatbot {
       background: url(../img/banner/bg_b.jpg) no-repeat top center !important;
@@ -697,18 +729,6 @@ hr {
       padding:250px 0 0 0;
       }
   
-      .img-responsive-integracoes-icon{
-          max-width: 75% !important;
-          display: block;
-          margin: 0 auto;
-      }
-  
-      .img-responsive-omnichannel-icon{
-          max-width: 40% !important;
-          display: block;
-          margin: 0 auto;
-      }
-  
       .integracoes-lado{
           float: left !important;
           width: 33%;
@@ -716,7 +736,7 @@ hr {
   
       .omnichannel-lado{
           float: left !important;
-          width: 33%;
+          width: 20%;
       }
   
       .img-responsive-nlp{
@@ -825,20 +845,43 @@ hr {
   }
 
 @media (max-width: 768px) {
-  .intro .slogan h2 {
-    font-size: 42px;
-  }
+    .carousel-indicators {display: none;}
 
-  .img-responsive-omnichannel{
-    max-width: 40% !important;
-    display: block;
-    margin: 0 auto;
-}
+    .titulo-banner{
+        font-size: 32px !important;
+        text-align: center !important;
+        font-weight: 400 !important;
+    }
+    
+    .subtitulo-banner{
+        font-size: 26px !important;
+        text-align: left !important;
+        font-weight: 300 !important;
+    }
 
-.introhome {
-    background: url(../img/banner/bg-ho_m.jpg) no-repeat top center !important;
-    height: 650px !important;
-  }
+    .banner-home-1 {
+        background: url(../img/banner/banner_home_m.jpg) no-repeat top center !important;
+        height: 300px !important;
+      }
+
+      .banner-home-2 {
+        background: url(../img/banner/banner_home_m.jpg) no-repeat top center !important;
+        height: 300px !important;
+      }
+
+      .banner-home-3 {
+        background: url(../img/banner/banner_home_m.jpg) no-repeat top center !important;
+        height: 300px !important;
+      }
+    
+      .banner-chatbot {
+        background: url(../img/banner/banner_chatbot_m.jpg) no-repeat top center !important;
+        height: 500px !important;
+      }
+
+
+
+
 
   .introchatbot {
     background: url(../img/banner/bg_m.jpg) no-repeat top center !important;
@@ -864,17 +907,7 @@ hr {
     padding:250px 0 0 0;
     }
 
-    .img-responsive-integracoes-icon{
-        max-width: 75% !important;
-        display: block;
-        margin: 0 auto;
-    }
 
-    .img-responsive-omnichannel-icon{
-        max-width: 40% !important;
-        display: block;
-        margin: 0 auto;
-    }
 
     .integracoes-lado{
         float: left !important;
@@ -883,7 +916,7 @@ hr {
 
     .omnichannel-lado{
         float: left !important;
-        width: 33%;
+        width: 20%;
     }
 
     .img-responsive-nlp{
@@ -948,18 +981,52 @@ hr {
 }
 
 @media (max-width: 600px) {
-  .intro .slogan h2 {
-    font-size: 28px;
-  }
-
-  .section-heading h2 {
-	font-size: 26px;
+    .carousel-indicators {display: none;}
+    
+    .titulo-banner{
+        font-size: 22px !important;
+        text-align: center !important;
+        font-weight: 400 !important;
+    }
+    
+    .subtitulo-banner{
+        font-size: 20px !important;
+        text-align: left !important;
+        font-weight: 300 !important;
     }
 
-    .introhome {
-        background: url(../img/banner/bg-ho_s.jpg) no-repeat top center !important;
-        height: 650px !important;
+    .text-title-big {
+        font-size: 20px;
+    }
+    
+    .text-subtitle-small {
+        font-size: 16px !important;
+    }
+
+    .banner-home-1 {
+        background: url(../img/banner/banner_home_p.jpg) no-repeat top center !important;
+        height: 280px !important;
       }
+
+      .banner-home-2 {
+        background: url(../img/banner/banner_home_p.jpg) no-repeat top center !important;
+        height: 280px !important;
+      }
+
+      .banner-home-3 {
+        background: url(../img/banner/banner_home_p.jpg) no-repeat top center !important;
+        height: 280px !important;
+      }
+
+      .banner-chatbot {
+        background: url(../img/banner/banner_chatbot_p.jpg) no-repeat top center !important;
+        height: 400px !important;
+      }
+
+
+
+
+
 
   .introchatbot {
     background: url(../img/banner/bg_s.jpg) no-repeat top center !important;
@@ -997,17 +1064,6 @@ hr {
         margin: 0 auto;
     }
 
-    .img-responsive-integracoes-icon{
-        max-width: 100% !important;
-        display: block;
-        margin: 0 auto;
-    }
-
-    .img-responsive-omnichannel-icon{
-        max-width: 50% !important;
-        display: block;
-        margin: 0 auto;
-    }
 
         .integracoes-lado{
             float: left !important;
@@ -1016,7 +1072,7 @@ hr {
 
         .omnichannel-lado{
             float: left !important;
-            width: 33%;
+            width: 20%;
         }
 
     .img-responsive-nlp{
@@ -1143,74 +1199,6 @@ hr {
 .ai-size {
     height: 450px;
 }
-
-.team h5 {
-    margin-bottom: 10px;
-    font-weight: bold;
-}
-
-.team p.subtitle {
-	margin-bottom: 10px;
-}
-
-.avatar {
-	margin-bottom: 20px;
-}
-
-.team-social {
-	margin-left: 0;
-	padding-left: 0;
-
-}
-
-.team-left {
-	text-align: left;
-}
-
-.team-social {
-	text-align: center;
-}
-
-.team-social li{
-    display: inline-block;
-	margin:0 !important;
-	padding:0;
-}
-
-
-.team-social a{
-	margin:0;
-	padding:0;
-    display: block;
-	width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    background: #3bbec0;
-	color: #fff;
-    -webkit-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-.team-social a i{
-	text-align: center;
-	margin:0;
-	padding:0;
-}
-.team-social .social-facebook a{background: #3873ae;}
-.team-social .social-twitter a{background: #62c6f8;}
-.team-social .social-linkedin a{background: #0077e5;}
-.team-social .social-dribble a{background: #d74980;}
-.team-social .social-deviantart a{background: #8da356;}
-.team-social .social-google a{background: #000;}
-.team-social .social-vimeo a{background: #51a6d3;}
-.team-social .social-facebook a:hover{background: #4893ce;}
-.team-social .social-twitter a:hover{background: #82e6ff;}
-.team-social .social-linkedin a{background: #0077e5;}
-.team-social .social-dribble a:hover{background: #f769a0;}
-.team-social .social-deviantart a:hover{background: #adc376;}
-.team-social .social-google a:hover{background: #333;}
-.team-social .social-vimeo a:hover{background: #71c6f3;}
-
 
 /* ===========================
 --- Services
